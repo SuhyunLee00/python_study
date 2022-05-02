@@ -4,7 +4,6 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     import random
@@ -74,9 +73,12 @@ if __name__ == '__main__':
         print(f'보유주식량:{TS}')
         print()
 
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-#mod2.py
-def add(a,b):
-    return a*b
-def(a,b):
-    return a/b
+# mod2.py
+def multi(a, b):
+    return a * b
+
+
+def div(a, b):
+    return a / b
